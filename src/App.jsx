@@ -1,9 +1,10 @@
 import React from "react";
+import Login from "./components/Auth/Login";
 
 function App() {
   return (
     <div>
-      <h1 className='text-red-500'>ems</h1>
+      <Login />
     </div>
   );
 }
